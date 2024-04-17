@@ -44,8 +44,12 @@
     - This artifact was selected from my CS 300: Data Structures and Algorithms - Analysis and Design course which I took in the spring of 2023. It was designed to open a file, read and sort the file data into a data structure, and search and display any requested data. I chose to include this artifact in my ePortfolio because it is a great way to showcase an understanding of how algorithms and data structures work together and the importance of efficiency when using algorithms, especially with large data structures. The original version of this program was developed to use the linear search and selection sort algorithms. For my planned enhancements, I wanted to test different sorting algorithms, to possibly increase the efficiency of the program. To test for efficiency, I refactored the sorting function to utilize the bubble sort and insertion sort, and did a Big O analysis for each. After running Big O analysis on all 3 sorting algorithms, I determined that each had the same efficiency rating, therefore, I left the program as is. I pasted a screenshot of each function with the Big O analysis written in the comments. By completing these enhancements along with Big O analysis on the different algorithms, I've met course outcomes 1, 2, and 3 listed in the [Code Review and Course Outcomes section](https://github.com/miketerry021/miketerry021.github.io/edit/main/README.md#textitcode-review-and-course-outcomes). By undertaking this planned enhancement, I was able to refresh my knowledge of algorithm efficiency and Big O analysis as it’s been awhile since I’ve had to use that skill.
  
  - $\small{\textsf{Link to Artifact Source Code Directory}}$ [Artifact 2](https://github.com/miketerry021/miketerry021.github.io/tree/fe7936bffadf3bda0d26090623a84737d0d00fc8/Artifact%20Two_MTerry)
+
+$$\normalsize{\textsf{Enhancements}}$$
 <p align="center">
-    <img src="https://github.com/miketerry021/miketerry021.github.io/blob/c1f6801a34fa4ef282f404f14b9d6f6923093a0a/images/michael.jpg" width="200" height="300">
+    <img src="https://github.com/miketerry021/miketerry021.github.io/blob/06913d6ddfae3d5237e282f2fa86b37298d4665d/images/selection%20sort.png" width="400" height="200">
+    <img src="https://github.com/miketerry021/miketerry021.github.io/blob/06913d6ddfae3d5237e282f2fa86b37298d4665d/images/insertion%20sort.png" width="400" height="200">
+    <img src="https://github.com/miketerry021/miketerry021.github.io/blob/06913d6ddfae3d5237e282f2fa86b37298d4665d/images/bubble%20sort.png" width="400" height="200">
 </p>
 
 ### Databases
