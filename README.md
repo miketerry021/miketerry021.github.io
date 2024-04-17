@@ -29,6 +29,8 @@ By completing the planned enhancements for each artifact, I have successfully me
 - Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
 - Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.
 
+![Course Outcomes Diagram](/images/course outcomes.png)
+
 ### Software Design and Engineering
 - Artifact 1
     - kfkewfkew;
