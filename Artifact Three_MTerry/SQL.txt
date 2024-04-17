@@ -1,0 +1,348 @@
+ 
+Database Basics (Definitions)
+	-Data
+		-Data: Raw facts and values. It is collected and processed to aid in many tasks such as weather forecasting and financial investment analysis.
+		-Information: Data that has been processed to give the facts meaning. 
+		
+	-Database and Datbase Management System
+		-Database: A collection of data in a structured format that correlates related data values. 
+			The database structure enables fast storing, retrieving, updating, and deleting of data.
+		-Database Management System (DBMS): Commonly called a database system, is a software application used to support data organization in a database. 
+			-A database system provides additional functionality to secure data and ensure data is accurate.
+		-Application: Software used to interact with a database system to access data in a database.
+
+	-Roles
+		-Database Administrator (DBA): Responsible for securing the database system against unauthorized users. 
+			-A database administrator enforces procedures for end user access and database system availability.
+		-Database Designer: Defines a database's tables, views, constraints, and indexes. The database design supports data storage, retrieval, modification, and deletion actions.
+		-End Users: Consumers of data in a database. End users request, update, or use stored data to generate reports or information.
+
+	-Databases
+		-Data Sharing: Databases allow end users to update and share data at the same time. A text file being edited by one user may be unavailable to others.
+		-Data Duplication: Shared data in databases reduces data duplication. Text files are easily shared, so multiple versions of the data may exist.
+		-Data Security: Databases ensure only certain users may edit or read stored data, but text files lack the ability to limit who can edit or read portions of a text file.
+		-Data Interaction: Databases provide simpler methods to access and combine stored data, which may lead to increased user productivity.
+		-Data Corruption: Databases ensure stored data is valid based on the database design and can recover from file system errors. Text files may contain invalid data or be corrupted when the file system fails.
+
+	-Performance
+		-Workload: The number of users and applications the database can handle concurrently.
+		-Throughput: The number of transactions a database can handle over time (transactions per second).
+		-Resources: The computer hardware (CPU, memory, storage space) and software components that are available to the database system.
+		-Query Optimization: How a database system determines the most efficient way to execute a query.
+		-Data Contention: When multiple users and applications compete for access to the same piece of data.
+
+	-Transaction
+		-A transaction occurs when a change is made in a database management system. 
+		-The database management system is responsible for ensuring that a transaction operates correctly. 
+		-Two methodologies used to support transactions are the ACID properties and concurrency.
+
+		-ACID (Atomicity, Consistency, Isolation, Durability)
+			-To provide a reliable database to end users, all four properties must be achieved for transactions to change data in a database.
+
+			-Atomicity
+				-Ensures a transaction runs successfully to the end, otherwise the transaction is not executed at all. 
+				-If one data change in the transaction is not successful, then none of the data changes are made to the database.
+			-Consistency
+				-Refers to whether or not data changes to a database are valid based on the design of the database. 
+					Ex: Consistency ensures non-numeric data cannot be used to update numeric data, and a customer cannot be deleted from one part of the database without also deleting the customer's data in other parts.
+			-Isolation
+				-Allows for multiple transactions to change shared data at the same time while ensuring the data is valid. 
+					Ex: If Transaction 1 deleted user "rsmith" from a table and Transaction 2 simultaneously tried to update data about user "rsmith", Transaction 1's deletion of "rsmith" would be reversed and Transaction 2's update would be successful.
+			-Durability 
+				-Refers to successful transactions being written to a file system. Data saved in a permanent format is called persistence. Persistence ensures data is not lost if a computer system fails.
+
+		-Concurrency
+			-Allows multiple users to access the database for reading and writing simultaneously.
+
+	-Components
+		-Query Processor: Interprets queries, creates a plan to modify the database or retrieve data from the database, and returns query results back to the requesting application.
+
+		-Storage Manager: Authorizes database access and interacts with the file system
+			-The storage manager manages a DATA DICTIONARY, which stores information about the database structure and the types of data in the database. 
+			-Databases can range from several megabytes to several terabytes, so the storage manager uses an INDEX to quickly locate data.
+ 
+		-Transaction Manager: Ensures transactions conform to ACID properties, handles concurrency by placing locks on data, and handles transaction failures. 
+			-A transaction manager maintains a transaction log of all actions performed by the database system. If a system failure occurs, the database can be recreated from the transaction log.
+
+	-Architecture
+		-One-tier Architecture
+			-The database system resides on the same computer used to interact with the database. 
+
+		-Two-tier Architecture
+			The application resides on a computer called the client. 
+			-The application makes requests over a network to the database system, which resides on a computer called the server. 
+			-The two-tier architecture allows multiple applications running on multiple clients to access the same database.
+
+		-Three-tier architecture
+			-The application is broken into two parts, an application on the client and an application on the server. 
+			-The client application makes data requests to the server application over a network, and the server application interacts directly with the database system on behalf of the client application. 
+			-The three-tier architecture is common in web and mobile applications.
+
+Database Models
+		-Hierarchical
+			-Oldest of the models. Developed in the 1960's
+			-Prioritizes speed and storage
+			-Database example: IMS
+
+		-Relational
+			-Developed in the late 1970's. Most popular and widely used among business
+			-Prioritizes productivity, organization, and simplicity
+			-Used for applications that require an accurate record of every transaction, such as banking, airline reservation systems, and student records.
+			-Database examples: MySQL, Oracle, SQL Server. Microsoft SQL, DB2
+
+		-MapReduce
+			-Developed by Google in the 2000
+			-Used by companis that store "big data" from online transactions. Social media sites are an example
+			-Database examples: Hadoop, MapR, Cloudera
+
+Data Types (Columns)
+
+
+Query Language
+	-A query is a command for a database that typically inserts new data, retrieves data, updates data, or deletes data from a database. 
+	-A query language is a computer programming language for writing database queries.
+
+	-4 Common Query Commands
+		-Often referred to as CRUD
+		
+		-Creat/Insert - Insert new data into a database
+		-Retrieve - Retrieve data from a database if available
+		-Update - Update data in a database
+		-Delete - Delete data fro a database
+
+	-Comments
+		-Single Line
+			-Single line start with --
+
+		-Block
+			-Block comments start with /*...*/
+
+	-SQL sublanguages
+		-The SQL language is divided into five sublanguages:
+
+			-Data Definition Language (DDL) defines the structure of the database.
+			-Data Query Language (DQL) retrieves data from the database.
+			-Data Manipulation Language (DML) manipulates data stored in a database.
+			-Data Control Language (DCL) controls database user access.
+			-Data Transaction Language (DTL) manages database transactions.			
+
+	-Syntax
+		-An SQL statement is a complete command composed of one or more clauses. 
+		-A clause groups SQL keywords like SELECT, FROM, and WHERE with table names like City, column names like Name, and conditions like Population > 100000. 
+		-An SQL statement may be written on a single line, but good practice is to write each clause on a separate line and end the last line with a semicolon.
+			
+			Ex: INSERT "Obi-won" INTO students		-- Obi-won is inserted into students database			
+			    UPDATE "John Smith" IN students		-- John Smith is updated in students database
+			    DELETE "Timmy Turner" FROM students;	-- Timmy Turner is deleted from students database and semi-colon is added to last clause
+
+SQL Keywords (MySQL)
+	
+	-Arithmatic Functions
+		-SUM, AVG, MAX, MIN all ingnore NULL values during calculations
+
+		SUM()						// returns the total of selected values.
+			Ex: SELECT SUM(Salary)		// return the sum all salary values
+			Ex: SUM(S + B) vs SUM(S)	// the 1st will do addition first and addition of NULL values will return NULL. Output is different will NULL values
+
+		AVG()						// returns the average of selected values.
+			Ex: SELECT AVG(Salary)		// returns the avgerage of all salary values
+
+		MAX()						// which returns the largest selected value.
+			Ex: SELECT MAX(Salary)		// returns the largest value from the Salary column
+
+		MIN()						// which returns the smallest selected value.
+			Ex: SELECT MIN(Salary)		// returns the smallest value from the Salary column
+
+	-Constraints
+		-Foreign Key Constraints
+
+	Load and Export Files
+
+	String Functions
+
+
+Null Values (MySQL)
+	-NULL is a special value that represents missing data. 
+	-NULL represents either 'unknown' or 'inapplicable'.
+	-NULL is not the same as zero for numeric data types or blanks for character data types. 
+		Ex: An Employee table has a Bonus attribute. One employee has NULL for Bonus, the other has 0. The employee will 0 bonus has a value, so
+		    is eligable for a bonus, just doesn't receive one. The one with NULL is not eligable for a bonus and won't receive one.
+
+	-A column can be designated a "NOT NULL" and any insertion of a NULL value will be rejected.
+	-Oracle and SQL Server use UNKNOWN instead of NULL to represent an uncertain result
+
+	-NULL with Operators
+		-Arithmatic operators are for numeric values. A numeric value used with NULL will return NULL, not a numeric value. NULL does not equal 0.
+			Ex: SELECT * WHERE (Salary + Bonus) > 50000	// if bonus is NULL, operation will return NULL and not a record, even if Salary is > 50000
+
+		-Comparison operators return NULL when either or both operands are NULL. Not a string and will not return True or False
+			Ex: SELECT * WHERE Bonus = NULL		// if bonus is NULL, operation will return NULL and not a record, even is Bonus is NULL
+
+		-Use IS keyword to return NULL values
+			Ex: SELECT * WHERE Bonus IS NULL		// Bonus columns whose value is NULL will return
+			
+		 -Logical operators will evaluate to NULL if either operand is NULL. NULL to does not have a value and canot be true or false
+			Ex: SELECT * WHERE (Salary > 50000) AND (Bonus > 0)		// if salary is 65000 and bonus is NULL, return will be True and NULL, not true and true
+
+			Logical Rules for MYSQL
+				-Different Databases have different logical rules for NULL comparisons
+					AND	True 	and NULL = NULL		OR True  or NULL = True
+						False and NULL = False		   False or NULL = NULL
+						NULL	and NULL = NULL		   NULL  or NULL = NULL
+
+Primary and Foreign Keys
+	-Pirmary Keys
+		-A primary key is a column, or group of columns, used to identify a row. 
+		-In an Employee table, the primary key would be ID because each employee has a unique employee ID.
+		-The primary key usually appears on the table's left side, but the primary key's position is not significant to the database.
+		-Often, primary key values are used in the WHERE clause to select a specific row.
+		-The primary key is specified in SQL when the table is created. 
+		-A unique column that is not the primary key is called an alternate key.
+
+		-Primary Keys Rules
+			-Values must be unique within the column. This rule ensures that each value identifies at most one row.
+			-Values may not be NULL. This rule ensures that each value identifies at least one row.
+
+	-Composite Primary Keys
+		-A composite primary key consists of multiple columns that are necessary to identify a row.
+		-If one column is not unique, 2 or more may be used to define uniqueness
+		-Composite primary keys are denoted with parentheses. 
+			Ex: (ColumnA, ColumnB).
+
+		Composite Primary Keys Rules
+			-Column values, when grouped together, must be unique. Ex: The combination (2538, 1) is unique within (ID, Number).
+			-Columns may not contain NULL.
+			-Composite primary keys must be minimal.
+
+	-Minimal Primary Keys
+		-In a minimal primary key, all columns are necessary for uniqueness.
+
+	-Foreign Keys
+		-A foreign key is a column, or group of columns, that refer to a primary key. 
+		-Non-NULL foreign key values must match some value of the primary key. Every foreign key value must be NULL or match a primary key
+		-The data types of the foreign and primary keys must be the same, but the names may be different.
+		-Several foreign keys may refer to the same primary key.
+		-A foreign key may refer to a primary key in the same table
+		-A foreign key that refers to a composite primary key (multiple columns) must also be composite (multiple columns)
+
+		-Foreign Keys Rules
+			-Foreign key values may be repeated. 
+				Ex: Sales and Marketing have the same manager.
+
+			-Foreign key values may be NULL. 
+				Ex: Technical support currently has no manager.
+
+			-Non-NULL foreign key values must match some primary key value.
+
+	Referential Integrity Rules
+		-A fully NULL foreign key is a simple or composite foreign key in which all columns are NULL
+		-Referential integrity requires that all foreign key values must either be fully NULL or match some primary key value.
+		-For a composite foreign key, if one column is NULL and the other is not, if it doesn't match the primary key 2 columns, it is considered partially NULL
+	
+		-Referential Integrity Rules Violations
+			-A primary key is updated.
+			-A foreign key is updated.
+			-A row containing a primary key is deleted.
+			-A row containing a foreign key is inserted
+
+		-Referential Integrity Rules Actions
+			-Databases can automatically correct referential integrity violations
+				-Restrict 		// rejects an insert, update, or delete that violates referential integrity.
+				-Set null 		// sets invalid foreign keys to NULL.
+				-Set default	// sets invalid foreign keys to a default primary key value, specified in SQL.
+				-Cascade		// propagates primary key changes to foreign keys.	
+
+			-Restrict is applied when no action is specified.
+			-Set null cannot be used when a foreign key is NOT NULL.
+			-The value specified for set default must be a valid primary key.
+
+Joins
+	-A report that is generated from data in multiple tables.
+	-A join is a SELECT statement that combines data from two tables into a single result. 
+	-The tables are combined by comparing columns from the two tables, usually with the = operator. 
+	-The columns must have COMPARABLE data types, int to int or string to string for example
+	-Usually, a join compares a foreign key of one table to the primary key of another. However, a join can compare any columns with comparable data types. 
+		Ex: SELECT DepartmentName, EmployeeName
+		    FROM Department, Employee				// report is generated between Department and Employee tables
+		    WHERE Manager = ID;
+
+	-The left table of a join is the first table in the FROM clause. The right table of a join is the second table in the FROM clause.
+
+	-Inner and Outer Joins
+		-In some cases during a JOIN, the database user may also want to see unmatched rows from left, right, or both tables. 
+		-To enable all cases, relational databases have four types of joins:
+			-inner join			// selects only matching left and right table rows.
+				Ex: SELECT Column1, Column2					
+				    FROM LeftTable						// select column1 from left table, column2 from right table
+				    INNER JOIN RightTable					// column3 on left table will be compared to column4 on right table
+				    ON LeftTable.Column3 = RightTable.Column4;		// report will match values from colum1 and column2 based on column3 and column4 matches
+	
+			-left join			// selects all left table rows, but only matching right table rows.
+			
+			-right join			// selects all right table rows, but only matching left table rows.
+			
+			-full join			// selects all left and right table rows, regardless of match.
+				Ex: SELECT DepartmentName, EmployeeName
+				    FROM Department					// select columns DepartmentName and EmployeeName from Department and Employee tables
+				    FULL JOIN Employee					// columns Department.Manager and Employee.ID will be compared.
+				    ON Department.Manager = Employee.ID		// report will every record based on Department.Manager and Employee.ID. NULL fills in values with no match
+	
+	-Special Joins (Join Types)
+		equijoin
+			-Joins that use = for comparison.
+
+		non-equijoin
+			-Join that use >, <, >=, <= for comparison
+
+		self-join
+			-A table is joined to itself. A self-join can compare any columns of a table, as long as the columns have comparable data types.
+			-If a foreign key and the referenced primary key are in the same table, a self-join might compare key columns.
+			-In a self-join, placeholder names are necessary to distinguish left and right tables.
+				Ex: SELECT A.Name, B.Name
+				    FROM EmployeeManager A			// inner join with place holders A and B
+				    INNER JOIN EmployeeManager B
+				    ON B.ID = A.Manager;
+
+		cross-join
+			-Combines two tables without comparing columns. 
+			-A cross-join has no WHERE or ON clause. As a result, all possible combinations of rows from both tables appear in the result.
+				Ex: SELECT Model, Gigabytes, IPhone.Price + Memory.Price
+				    FROM IPhone			// tables IPhone and Memory tables are joined without comparing columns
+				    FULL JOIN Memory
+
+Entity Relationship Model (ER Diagram)	
+				
+
+	Cardinality
+		-In entity-relationship modeling, cardinality refers to maxima and minima of relationships and attributes.	
+	
+		-Attribute Maximum
+			-The greatest number of attribute instances possible for a single entity instance. Attribute maximum is specified as one or many.
+			-On ER diagrams, attribute maximum is denoted 1 or M and appears after the attribute name.
+				Ex: ConfirmationNumber 1(1)		// maxima and minima can be greater than 1
+				    SpecialMealCode M(0)
+
+		-Attribute Minimum
+			-The least number of attribute instances possible for a single entity instance. Attribute minimum is specified as zero or one.
+			-On ER diagrams, attribute minimum is denoted 0 or 1 and appears in parentheses after the attribute name.
+				Ex: ConfirmationNumber 1(1)		// // maxima and minima can be greater than 1
+				    SpecialMealCode M(0) 
+
+		-Attribute maxima and minima are commonly referred to as follows:
+			-Singular attribute 	// a maximum of one.
+			-Plural attribute 	// a maximum of many.
+			-Required attribute 	// a minimum of one.
+			-Optional attribute	// a minimum of zero.
+
+
+
+
+
+
+
+
+
+
+
+
+
