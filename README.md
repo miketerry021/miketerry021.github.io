@@ -1,4 +1,4 @@
-# $${\color{blue}\text{Michael Terry's ePortfolio}}$$
+# $$\Huge{\textsf{\color{blue} Michael Terry's ePortfolio}}$$
 
 *The purpose of this ePortfolio is to highlight my skils, abilities, and experience as a Software Engineering student at Southern New Hampshire University (SNHU). The contents included are 3 projects from the following categories: Software Design and Engneering, Algorithms and Data Structures, Databases. Also included is a professional self-assessment, a link to a code review for the 3 projects, link to the source code for each artifact, and the targeted course outcomes for my Capstone course to complete my Computer Science B.S. program.*
 
@@ -6,7 +6,7 @@
     <img src="https://github.com/miketerry021/miketerry021.github.io/blob/c1f6801a34fa4ef282f404f14b9d6f6923093a0a/images/michael.jpg" width="200" height="300">
 </p>
 
-## $\textit{Table of Contents}$
+## $\huge{\textsf{\textit{Table of Contents}}}$
 - Professional Self-Assessment
 - Code Review and Course Outcomes
 - Software Design and Engineering
@@ -20,17 +20,16 @@
 *My journey as a Computer Science student has been a 5 year process. I spent the first 3 1/2 years at Mt. San Antonio Community College, with the last 1 1/2 year at Southern New Hampshire University (SNHU). 
 
 ### $\textit{Code Review and Course Outcomes}$
-$\small{\textsf{The following is a link to a code review for the artifacts within this ePrtfolio:}}$ [Code Review](https://youtu.be/nm4sq8rb4j4)
+- $\small{\textsf{Here is a link to a code review for the artifacts within this ePrtfolio:}}$ [Code Review](https://youtu.be/nm4sq8rb4j4)
 
-By completing the planned enhancements for each artifact, I have successfully met the targeted course outcomes outlined in the Capstone cousre at SNHU. 
+- By completing the planned enhancements for each artifact, I have successfully met the targeted course outcomes outlined in the Capstone cousre at SNHU. 
 
-Here is a list of the course outcomes:
-
-1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science.
-2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.
-3. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices.
-4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
-5. Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.
+- Here is a list of the course outcomes:
+    1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science.
+    2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.
+    3. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices.
+    4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
+    5. Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.
 
 ![course outcomes](https://github.com/miketerry021/miketerry021.github.io/blob/ab2d0516769d14681df141f78d22dc7557f53980/images/course%20outcomes.png)
 
@@ -38,13 +37,16 @@ Here is a list of the course outcomes:
 - $\normalsize{\textsf{Artifact 1 Narrative}}$
     - This artifact was selected from my CS 330: Computational Graphics and Visualization course which I took in the fall of 2023. It was is designed to render a 3D scene from an image I submitted earlier in the course. I decided to include this artifact in my ePortfolio because this project represents my ability to study, understand, and apply new and unfamiliar coding concepts. Prior to this course, I’ve never experienced any graphics programming. While I consider myself very proficient in C++, utilizing OpenGL for the first time, which are C++ libraries and what this progject was developed in, felt like a beginning coding course in a computer science program. I started losing confidence during this course and began questioning if I should continue with the computer science program at SNHU. However, once everything clicked, it felt like riding a bike and I began to understand graphics programming to the point where I actually like it. The project represents a personal growth for me as a student and prospective software engineer. For my enhancements, I decided to implement a few advanced graphics techniques such as camera movement, textures, and lighting to give the scene a realistic look. For this specific scene, I added textures to the walls and objects, and added a nighttime lighting effect. I also added camera movement to give the user greater control of the camera. The user can use the A, S, D, and W keys to move left, back, right, and forward, and the Q and E keys to move vertically up and down. By completing these enhancements, I've met course outcomes 1, 2, and 4 listed in the [Code Review and Course Outcomes section](https://github.com/miketerry021/miketerry021.github.io/edit/main/README.md#textitcode-review-and-course-outcomes). One thing I learned from this enhancement was the importance of documentation and comments for any project and source code. Some time had passed frm when I last worked on this program until I began my enhancements. Going over my prevously commented code, I was able to quickly diagnose where the code for my enhancments needed to be placed. This just reiterated to me the importance of code documentation and commenting.
  
- - $\small{\textsf{Link to Artifact Directory}}$ 
+ - $\small{\textsf{Link to Artifact Source Code Directory}}$ 
 
 ### $\textit{Algorithms and Data Structures}$
 - $\normalsize{\textsf{Artifact 2 Narrative}}$
     - This artifact was selected from my CS 300: Data Structures and Algorithms - Analysis and Design course which I took in the spring of 2023. It was designed to open a file, read and sort the file data into a data structure, and search and display any requested data. I chose to include this artifact in my ePortfolio because it is a great way to showcase an understanding of how algorithms and data structures work together and the importance of efficiency when using algorithms, especially with large data structures. The original version of this program was developed to use the linear search and selection sort algorithms. For my planned enhancements, I wanted to test different sorting algorithms, to possibly increase the efficiency of the program. To test for efficiency, I refactored the sorting function to utilize the bubble sort and insertion sort, and did a Big O analysis for each. After running Big O analysis on all 3 sorting algorithms, I determined that each had the same efficiency rating, therefore, I left the program as is. I pasted a screenshot of each function with the Big O analysis written in the comments. By completing these enhancements along with Big O analysis on the different algorithms, I've met course outcomes 1, 2, and 3 listed in the [Code Review and Course Outcomes section](https://github.com/miketerry021/miketerry021.github.io/edit/main/README.md#textitcode-review-and-course-outcomes). By undertaking this planned enhancement, I was able to refresh my knowledge of algorithm efficiency and Big O analysis as it’s been awhile since I’ve had to use that skill.
  
- - $\small{\textsf{Link to Artifact Directory}}$ [Artifact 2](https://github.com/miketerry021/miketerry021.github.io/tree/fe7936bffadf3bda0d26090623a84737d0d00fc8/Artifact%20Two_MTerry)
+ - $\small{\textsf{Link to Artifact Source Code Directory}}$ [Artifact 2](https://github.com/miketerry021/miketerry021.github.io/tree/fe7936bffadf3bda0d26090623a84737d0d00fc8/Artifact%20Two_MTerry)
+<p align="center">
+    <img src="https://github.com/miketerry021/miketerry021.github.io/blob/c1f6801a34fa4ef282f404f14b9d6f6923093a0a/images/michael.jpg" width="200" height="300">
+</p>
 
 ### Databases
 - $\normalsize{\textsf{Artifact 3 Narrative}}$
