@@ -16,6 +16,7 @@
 
 ### Code Review & Course Outcomes
 The following is a link to a code review for the artifacts within this ePrtfolio:
+https://youtu.be/nm4sq8rb4j4
 
 ${\color{rgba(255,15,4,1)}fgrgrregregrg}$
 
