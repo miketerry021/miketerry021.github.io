@@ -1,5 +1,10 @@
 # $${\color{blue}\text{Michael Terry's ePortfolio}}$$
+
 *The purpose of this ePortfolio is to highlight my skils, abilities, and experience as a Software Engineering student at Southern New Hampshire University (SNHU). The contents included are 3 projects from the following categories: Software Design and Engneering, Algorithms and Data Structures, Databases. Also included is a professional self-assessment, a link to a code review for the 3 projects, link to the source code for each artifact, and the targeted course outcomes for my Capstone course to complete my Computer Science B.S. program.*
+
+<p align="center">
+    <img src="https://github.com/miketerry021/miketerry021.github.io/blob/c1f6801a34fa4ef282f404f14b9d6f6923093a0a/images/michael.jpg" width="200" height="300">
+</p>
 
 ## $\textit{Table of Contents}$
 - Professional Self-Assessment
