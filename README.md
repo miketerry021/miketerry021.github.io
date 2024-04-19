@@ -51,7 +51,7 @@
  
  - $\small{\textsf{Link to Artifact Source Code Directory}}$ [Artifact 2](https://github.com/miketerry021/miketerry021.github.io/tree/fe7936bffadf3bda0d26090623a84737d0d00fc8/Artifact%20Two_MTerry)
 
-$$\normalsize{\textsf{Big O Anlysis}}$$
+$$\normalsize{\textsf{Big O Analysis}}$$
 <p align="center">
     <img src="https://github.com/miketerry021/miketerry021.github.io/blob/06913d6ddfae3d5237e282f2fa86b37298d4665d/images/selection%20sort.png" width="400" height="200">
     <img src="https://github.com/miketerry021/miketerry021.github.io/blob/06913d6ddfae3d5237e282f2fa86b37298d4665d/images/insertion%20sort.png" width="400" height="200">
