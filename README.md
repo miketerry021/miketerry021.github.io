@@ -32,7 +32,7 @@
     5. Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.
 
 <p align="center">
-    <img src="https://github.com/miketerry021/miketerry021.github.io/blob/ab2d0516769d14681df141f78d22dc7557f53980/images/course%20outcomes.png" width="600" height="300">
+    <img src="https://github.com/miketerry021/miketerry021.github.io/blob/ab757abb777ef329f02a34be03c4e9a234fb482b/images/course%20outcomes.png" width="600" height="300">
 </p>
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Software Design and Engineering}}}$
