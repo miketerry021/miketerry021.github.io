@@ -41,7 +41,7 @@
       
     - For my enhancements, I decided to implement a few advanced graphics techniques such as camera movement, textures, and lighting to give the scene a realistic look. For this specific scene, I added textures to the walls and objects, and added a nighttime lighting effect. I also added camera movement to give the user greater control of the camera. The user can use the A, S, D, and W keys to move left, back, right, and forward, and the Q and E keys to move vertically up and down. By completing these enhancements, I've met course outcomes 1, 2, and 4 listed in the [Code Review and Course Outcomes section](https://github.com/miketerry021/miketerry021.github.io/edit/main/README.md#textitcode-review-and-course-outcomes). One thing I learned from this enhancement was the importance of documentation and comments for any project and source code. Some time had passed from when I last worked on this program until I began my enhancements. Going over my previously commented code, I was able to quickly diagnose where the code for my enhancements needed to be placed. This just reiterated to me the importance of code documentation and commenting.
  
- - $\small{\textsf{Link to Artifact Source Code Directory}}$ [Artifact 2](https://github.com/miketerry021/miketerry021.github.io/tree/fe7936bffadf3bda0d26090623a84737d0d00fc8/Artifact%20Two_MTerry)
+ - $\small{\textsf{Link to Artifact Source Code Directory}}$ [Artifact 1](https://github.com/miketerry021/miketerry021.github.io/tree/9063058b8b6c505cec8b173abd4770e263a0e5e8/Artifact%20One_MTerry)
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Algorithms and Data Structures}}}$
 - $\normalsize{\textsf{Artifact 2 Narrative}}$
