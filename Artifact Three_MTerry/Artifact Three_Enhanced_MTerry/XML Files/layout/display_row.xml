@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemsRowsDisplay"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/itemID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:hint="1"
+                android:textColor="#000"
+                android:textColorHint="#78909C"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/itemMake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:hint="Lenovo"
+                android:textColorHint="#78909C"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/itemModel"
+                app:layout_constraintStart_toEndOf="@+id/itemID"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/itemModel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:hint="ThinkPad X1"
+                android:textColorHint="#78909C"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/itemType"
+                app:layout_constraintStart_toEndOf="@+id/itemID"
+                app:layout_constraintTop_toBottomOf="@+id/itemMake"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/itemType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:hint="Laptop"
+                android:textColorHint="#78909C"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/itemID"
+                app:layout_constraintTop_toBottomOf="@+id/itemModel"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/itemLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:hint="San Francisco"
+                android:textColorHint="#78909C"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/itemDepartment"
+                app:layout_constraintStart_toEndOf="@+id/itemModel"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/itemDepartment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:hint="Human Resources"
+                android:textColorHint="#78909C"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/itemModel"
+                app:layout_constraintTop_toBottomOf="@+id/itemLocation"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/userAssigned"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                android:hint="Williamson, M"
+                android:textColorHint="#78909C"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/itemDepartment"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.607"
+                tools:ignore="HardcodedText" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

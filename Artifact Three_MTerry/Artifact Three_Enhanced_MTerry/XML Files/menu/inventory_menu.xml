@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/inventorySearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/search_icon"
+        android:title="Inventory Search"
+        app:showAsAction="always"
+        tools:ignore="HardcodedText"/>
+
+    <item
+        android:id="@+id/menuAddItem"
+        android:title="Add Item" />
+
+    <item
+        android:id="@+id/menuUpdateItem"
+        android:title="Modify/Delete Item"/>
+
+    <item
+        android:id="@+id/menuSignOut"
+        android:title="Sign Out"/>
+
+</menu>

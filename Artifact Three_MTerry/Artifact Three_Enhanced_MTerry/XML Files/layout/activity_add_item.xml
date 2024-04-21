@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8803A9F4"
+    tools:context=".AddItem">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/addItemToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/addItemsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="New Item"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addItemToolbar"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/addItemType"
+        android:layout_width="193dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:hint="Item Type"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColorHint="#5D4037"
+        app:layout_constraintBottom_toTopOf="@+id/addItemModel"
+        app:layout_constraintEnd_toStartOf="@+id/addItemMake"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/addItemMake"
+        android:layout_width="193dp"
+        android:layout_height="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Item Make"
+        android:inputType="text"
+        android:textColorHint="#5D4037"
+        app:layout_constraintBottom_toBottomOf="@+id/addItemType"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/addItemType"
+        app:layout_constraintTop_toTopOf="@+id/addItemType"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/addItemModel"
+        android:layout_width="193dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Item Model"
+        android:inputType="text"
+        android:textColorHint="#5D4037"
+        app:layout_constraintBottom_toTopOf="@+id/addItemDepartment"
+        app:layout_constraintEnd_toStartOf="@+id/addItemLocation"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/addItemLocation"
+        android:layout_width="193dp"
+        android:layout_height="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Item Location"
+        android:inputType="text"
+        android:textColorHint="#5D4037"
+        app:layout_constraintBottom_toBottomOf="@+id/addItemModel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/addItemModel"
+        app:layout_constraintTop_toTopOf="@+id/addItemModel"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/addItemDepartment"
+        android:layout_width="193dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="40dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Item Department"
+        android:inputType="text"
+        android:textColorHint="#5D4037"
+        app:layout_constraintBottom_toTopOf="@+id/addButton"
+        app:layout_constraintEnd_toStartOf="@+id/addItemUser"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/addItemUser"
+        android:layout_width="193dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="User"
+        android:textColorHint="#5D4037"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/addItemDepartment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/addItemDepartment"
+        app:layout_constraintTop_toTopOf="@+id/addItemDepartment"
+        android:autofillHints=""
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="122dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginBottom="148dp"
+        android:text="Add Item"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
