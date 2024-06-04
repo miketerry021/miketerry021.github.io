@@ -13,7 +13,7 @@
     - Corner Grocer - C++
     - Courses ABCU - C++
     - Coffee Shop - Java
-    - Project 5
+    - Ice Cream Shop - Java
     - Banking Application - Java
     - Project 7
     - Project 8 
