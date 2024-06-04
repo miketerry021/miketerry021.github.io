@@ -10,7 +10,7 @@
 - Resume
 - Projects
     - Airgead Banking - C++
-    - Project 2
+    - Corner Grocer - C++
     - Project 3
     - Project 4
     - Project 5
