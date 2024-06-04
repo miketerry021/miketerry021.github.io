@@ -9,6 +9,13 @@
 ## $\huge{\textsf{\color{rgba(226,60,44,1)}\textit{Table of Contents}}}$
 - Professional Self-Assessment
 - Code Review and Course Outcomes
+- Projects
+    - Project 1
+    - Project 2
+    - Project 3
+    - Project 4
+    - Project 5
+    - Project 6
 - Software Design and Engineering
     - Artifact 1
 - Algorithms and Data Structures
