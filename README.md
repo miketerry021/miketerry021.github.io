@@ -11,7 +11,7 @@
 - Projects
     - Airgead Banking - C++
     - Corner Grocer - C++
-    - Project 3
+    - Courses ABCU - C++
     - Project 4
     - Project 5
     - Project 6
