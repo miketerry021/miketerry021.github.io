@@ -12,9 +12,9 @@
     - Airgead Banking - C++
     - Corner Grocer - C++
     - Courses ABCU - C++
-    - Project 4
+    - Coffee Shop - Java
     - Project 5
-    - Project 6
+    - Banking Application - Java
     - Project 7
     - Project 8 
 - Contact
