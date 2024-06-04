@@ -25,9 +25,6 @@
     - Artifact 3
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Resume}}}$
-
-
-### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Resume}}}$
 - $\small{\textsf{Here is a link to my Resume:}}$ [Developer Resume](https://github.com/miketerry021/miketerry021.github.io/blob/584360ab09c3e55da07b730639a890ae5b50e054/Developer%20Resume.pdf)
 
 - By completing the planned enhancements for each artifact, I have successfully met the targeted course outcomes outlined in the Capstone course at SNHU. 
