@@ -15,6 +15,8 @@
     - Project 4
     - Project 5
     - Project 6
+    - Project 7
+    - Project 8 
 - Contact
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Resume}}}$
