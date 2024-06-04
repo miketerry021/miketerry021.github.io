@@ -16,7 +16,7 @@
     - Project 5
     - Project 6
 - Contact
-    -
+
 - Software Design and Engineering
     - Artifact 1
 - Algorithms and Data Structures
