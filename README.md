@@ -15,8 +15,8 @@
     - Coffee Shop - Java
     - Ice Cream Shop - Java
     - Banking Application - Java
-    - Project 7
-    - Project 8 
+    - Inventory App - Java
+    - Generate Image - C++ (OpenGL) 
 - Contact
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Resume}}}$
