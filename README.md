@@ -16,6 +16,7 @@
     - Project 5
     - Project 6
 - Contact
+- Contact
 
 - Software Design and Engineering
     - Artifact 1
