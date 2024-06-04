@@ -16,7 +16,7 @@
     - Ice Cream Shop - Java
     - Banking Application - Java
     - Inventory App - Java
-    - Generate Image - C++ (OpenGL) 
+    - Generate 3D Image - C++ (OpenGL) 
 - Contact
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Resume}}}$
@@ -35,7 +35,14 @@
     <img src="https://github.com/miketerry021/miketerry021.github.io/blob/ab757abb777ef329f02a34be03c4e9a234fb482b/images/course%20outcomes.png" width="600" height="300">
 </p>
 
-### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Software Design and Engineering}}}$
+### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Airgead Banking}}}$
+### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Corner Grocer}}}$
+### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Courses ABCU}}}$
+### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Coffee Shop}}}$
+### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Ice Cream Shop}}}$
+### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Banking Application}}}$
+### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Inventory App}}}$
+### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Generate 3D Image}}}$
 - $\normalsize{\textsf{Artifact 1 Narrative}}$
     - This artifact was selected from my CS 330: Computational Graphics and Visualization course which I took in the fall of 2023. It is designed to render a 3D scene from an image I submitted earlier in the course. I decided to include this artifact in my ePortfolio because this project represents my ability to study, understand, and apply new and unfamiliar coding concepts. Prior to this course, I’ve never experienced any graphics programming. While I consider myself very proficient in C++, utilizing OpenGL for the first time, which are C++ libraries and what this project was developed in, felt like a beginning coding course in a computer science program. I started losing confidence during this course and began questioning if I should continue with the computer science program at SNHU. However, once everything clicked, it felt like riding a bike and I began to understand graphics programming to the point where I actually like it. The project represents a personal growth for me as a student and prospective software engineer.
       
