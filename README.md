@@ -1,14 +1,12 @@
 # $$\Huge{\textsf{\color{rgba(44,144,226,1)} Michael Terry's ePortfolio}}$$
 
-*Hello!, my name is Michael Terry. I've earned my B.S. in Computer Science: Software Engineering over the course of 5 years, with the first 3 1/2 years at Mt. San Antonio Community College in Walnut, California, and the last 1 1/2 year at Southern New Hampshire University (SNHU). Throughout my time at both schools, I've developed various projects in different programming languages and databases which include C++, Java, HTML, CSS, JavaScript, SQL and MongoDB. These projects cover a range of software development skills and techniques which include, application design, algorithms and data structures, CRUD operations, utilizing secure coding techniques, unit  testing, exception handling, input validation, and  reverse engineering undocumented legacy code to recreate a new secure and applications. By collaborating with classmates and collegues, these projects granted me experience with the different phases of the Software Development Lifecycle within an Agile-Scrum project management structure. This ePortfolio will contain various projects that highlight these skills and techniques.*
+*Hello!, my name is Michael Terry. I've earned my B.S. in Computer Science: Software Engineering over the course of 5 years, with the first 3 1/2 years at Mt. San Antonio Community College in Walnut, California, and the last 1 1/2 year at Southern New Hampshire University (SNHU). Throughout my time at both schools, I've developed various projects in different programming languages and databases which include C++, Java, HTML, CSS, JavaScript, SQL and MongoDB. These projects cover a range of software development skills and techniques which include, application design, algorithms and data structures, CRUD operations, utilizing secure coding techniques, unit  testing, exception handling, input validation, and  reverse engineering undocumented legacy code to recreate a new secure and applications. By collaborating with classmates and colleagues, these projects granted me experience with the different phases of the Software Development Lifecycle within an Agile-Scrum project management structure. This ePortfolio will contain various projects that highlight these skills and techniques.*
 
 <p align="center">
     <img src="https://github.com/miketerry021/miketerry021.github.io/blob/c1f6801a34fa4ef282f404f14b9d6f6923093a0a/images/michael.jpg" width="200" height="300">
 </p>
 
 ## $\huge{\textsf{\color{rgba(226,60,44,1)}\textit{Table of Contents}}}$
-- Professional Self-Assessment
-- Code Review and Course Outcomes
 - Resume
 - Projects
     - Project 1
@@ -17,6 +15,8 @@
     - Project 4
     - Project 5
     - Project 6
+- Contact
+    -
 - Software Design and Engineering
     - Artifact 1
 - Algorithms and Data Structures
@@ -24,8 +24,8 @@
 - Databases
     - Artifact 3
 
-### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Professional Self-Assessment}}}$
-- *Hello!, my name is Michael Terry. I've earned my B.S. in Computer Science: Software Engineering over the course of 5 years, with the first 3 1/2 years at Mt. San Antonio Community College in Walnut, California, and the last 1 1/2 year at Southern New Hampshire University (SNHU). Throughout my time at both schools, I've developed various projects in different programming languages and databases which include C++, Java, HTML, CSS, JavaScript, SQL and MongoDB. These projects cover a range of software development skills and techniques which include, application design, algorithms and data structures, CRUD operations, utilizing secure coding techniques, unit  testing, exception handling, input validation, and  reverse engineering undocumented legacy code to recreate a new secure and applications. By collaborating with classmates and collegues, these projects granted me experience with the different phases of the Software Development Lifecycle within an Agile-Scrum project management structure. This ePortfolio will contain various projects that highlight these skills and techniques.* 
+### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Resume}}}$
+
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Code Review and Course Outcomes}}}$
 - $\small{\textsf{Here is a link to a code review for the artifacts within this ePrtfolio:}}$ [Code Review](https://youtu.be/nm4sq8rb4j4)
