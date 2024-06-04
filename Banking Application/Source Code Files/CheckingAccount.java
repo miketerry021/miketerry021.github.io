@@ -1,6 +1,6 @@
-/*Folder/Project Name	: Project8
+/* 
  * Programmer Name		: Michael Terry
- * Date					: 12/04/17
+ * Date					: 12/04/2023
  * Class Name			: CheckingAccount
  * Project Description	: 
   */
