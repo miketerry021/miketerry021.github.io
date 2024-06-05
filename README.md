@@ -28,6 +28,10 @@
 - [Airgead Source Code and Executable](https://github.com/miketerry021/miketerry021.github.io/blob/584360ab09c3e55da07b730639a890ae5b50e054/Developer%20Resume.pdf)
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Corner Grocer}}}$
+- The Corner Grocer program is a menu-based program that begins by reading a data file that contains a list of grocery items and their quantity. The user will have the option to search for one item, print all items and their quantity, and print a histogram of all items and their quantity. This project focuses on design techniques, data structures, exception handling, file management, and container lists.
+  
+- $\color{red}{\textsf{IMPORTANT!}}$ ***The executable and data file must be downloaded and placed in the same folder directory to run the program***
+  
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Courses ABCU}}}$
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Coffee Shop}}}$
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Ice Cream Shop}}}$
