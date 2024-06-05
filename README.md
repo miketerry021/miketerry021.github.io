@@ -42,18 +42,19 @@
 - [Courses ABCU Source Code and Executable](https://github.com/miketerry021/miketerry021.github.io/tree/68b578e5f8688a9527a24fabcdb112d299483932/Courses%20ABCU)
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Coffee Shop}}}$
-- [Coffee Shop Source Code and Executable](https://github.com/miketerry021/miketerry021.github.io/tree/68b578e5f8688a9527a24fabcdb112d299483932/Airgead%20Banking)
+- [Coffee Shop Source Code and Executable](https://github.com/miketerry021/miketerry021.github.io/tree/5f496947ada842d02c48b630e4f0e9e3fe1c021d/Coffee%20Shop)
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Ice Cream Shop}}}$
-- [Ice Cream Shop Source Code and Executable](https://github.com/miketerry021/miketerry021.github.io/tree/68b578e5f8688a9527a24fabcdb112d299483932/Airgead%20Banking)
+- [Ice Cream Shop Source Code and Executable](https://github.com/miketerry021/miketerry021.github.io/tree/5f496947ada842d02c48b630e4f0e9e3fe1c021d/Ice%20Cream%20Shop)
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Banking Application}}}$
-- [Banking Source Code and Executable](https://github.com/miketerry021/miketerry021.github.io/tree/68b578e5f8688a9527a24fabcdb112d299483932/Airgead%20Banking)
+- [Banking Source Code and Executable](https://github.com/miketerry021/miketerry021.github.io/tree/5f496947ada842d02c48b630e4f0e9e3fe1c021d/Banking%20Application)
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Inventory App}}}$
-- [Inventory App Source Code and Executable](https://github.com/miketerry021/miketerry021.github.io/tree/68b578e5f8688a9527a24fabcdb112d299483932/Airgead%20Banking)
+- [Inventory App Source Code and Executable](https://github.com/miketerry021/miketerry021.github.io/tree/5f496947ada842d02c48b630e4f0e9e3fe1c021d/Inventory%20App)
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Generate 3D Image}}}$
+- [Inventory App Source Code and Executable](https://github.com/miketerry021/miketerry021.github.io/tree/5f496947ada842d02c48b630e4f0e9e3fe1c021d/Generate%203D%20Image)
 
 - $\normalsize{\textsf{Artifact 1 Narrative}}$
   
