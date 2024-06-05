@@ -1,6 +1,6 @@
 # $$\Huge{\textsf{\color{rgba(44,144,226,1)} Michael Terry's ePortfolio}}$$
 
-*Hello!, my name is Michael Terry. I've earned my B.S. in Computer Science: Software Engineering over the course of 5 years, with the first 3 1/2 years at Mt. San Antonio Community College in Walnut, California, and the last 1 1/2 year at Southern New Hampshire University (SNHU). Throughout my time at both schools, I've developed various projects in different programming languages and databases which include C++, Java, HTML, CSS, JavaScript, SQL and MongoDB. These projects cover a range of software development skills and techniques which include, application design, algorithms and data structures, CRUD operations, utilizing secure coding techniques, unit  testing, exception handling, input validation, and  reverse engineering undocumented legacy code to recreate a new secure and applications. By collaborating with classmates and colleagues, these projects granted me experience with the different phases of the Software Development Lifecycle within an Agile-Scrum project management structure. This ePortfolio will contain various projects that highlight these skills and techniques. Each project directory conatins the program source code and a downloadable executable to run the program.*
+*Hello!, my name is Michael Terry. I've earned my B.S. in Computer Science: Software Engineering over the course of 5 years, with the first 3 1/2 years at Mt. San Antonio Community College in Walnut, California, and the last 1 1/2 year at Southern New Hampshire University (SNHU). Throughout my time at both schools, I've developed various projects in different programming languages and databases which include C++, Java, HTML, CSS, JavaScript, SQL and MongoDB. These projects cover a range of software development skills and techniques which include, application design, algorithms and data structures, CRUD operations, utilizing secure coding techniques, unit  testing, exception handling, input validation, and  reverse engineering undocumented legacy code to recreate a new secure and applications. By collaborating with classmates and colleagues, these projects granted me experience with the different phases of the Software Development Lifecycle within an Agile-Scrum project management structure. This ePortfolio will contain various projects that highlight these skills and techniques. There is also a link to each project directory that conatins the program source code and a downloadable executable to run the program.*
 
 <p align="center">
     <img src="https://github.com/miketerry021/miketerry021.github.io/blob/c1f6801a34fa4ef282f404f14b9d6f6923093a0a/images/michael.jpg" width="200" height="300">
@@ -22,20 +22,11 @@
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Resume}}}$
 - $\small{\textsf{Here is a link to my Resume:}}$ [Developer Resume](https://github.com/miketerry021/miketerry021.github.io/blob/584360ab09c3e55da07b730639a890ae5b50e054/Developer%20Resume.pdf)
 
-- By completing the planned enhancements for each artifact, I have successfully met the targeted course outcomes outlined in the Capstone course at SNHU. 
-
-- Here is a list of the course outcomes:
-    1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science.
-    2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.
-    3. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices.
-    4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
-    5. Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.
-
-<p align="center">
-    <img src="https://github.com/miketerry021/miketerry021.github.io/blob/ab757abb777ef329f02a34be03c4e9a234fb482b/images/course%20outcomes.png" width="600" height="300">
-</p>
-
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Airgead Banking}}}$
+- The Airgead Banking program is a menu-based program that will calculate a compound interest investment plan based parameters entered by the user: initial deposit, monthly deposit, interest rate, and number of investment years. This project focuses on is utilizing design formatting techniques and mathematical calculation.
+  
+- [Airgead Source Code and Executable](https://github.com/miketerry021/miketerry021.github.io/blob/584360ab09c3e55da07b730639a890ae5b50e054/Developer%20Resume.pdf)
+
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Corner Grocer}}}$
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Courses ABCU}}}$
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Coffee Shop}}}$
@@ -43,6 +34,7 @@
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Banking Application}}}$
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Inventory App}}}$
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Generate 3D Image}}}$
+
 - $\normalsize{\textsf{Artifact 1 Narrative}}$
     - This artifact was selected from my CS 330: Computational Graphics and Visualization course which I took in the fall of 2023. It is designed to render a 3D scene from an image I submitted earlier in the course. I decided to include this artifact in my ePortfolio because this project represents my ability to study, understand, and apply new and unfamiliar coding concepts. Prior to this course, I’ve never experienced any graphics programming. While I consider myself very proficient in C++, utilizing OpenGL for the first time, which are C++ libraries and what this project was developed in, felt like a beginning coding course in a computer science program. I started losing confidence during this course and began questioning if I should continue with the computer science program at SNHU. However, once everything clicked, it felt like riding a bike and I began to understand graphics programming to the point where I actually like it. The project represents a personal growth for me as a student and prospective software engineer.
       
