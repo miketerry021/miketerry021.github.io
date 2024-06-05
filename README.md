@@ -61,7 +61,7 @@
 - [Inventory App Source Code and APK file](https://github.com/miketerry021/miketerry021.github.io/tree/f5dad4a53d61fa9269ae0aaccb72f51b3f52655b/Inventory%20App)
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Generate 3D Image}}}$
-- [Inventory App Source Code and Executable](https://github.com/miketerry021/miketerry021.github.io/tree/5f496947ada842d02c48b630e4f0e9e3fe1c021d/Generate%203D%20Image)
+- [3D Image](https://github.com/miketerry021/miketerry021.github.io/tree/5f496947ada842d02c48b630e4f0e9e3fe1c021d/Generate%203D%20Image)
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Contact}}}$
 - Email: miketerry021@gmail.com
