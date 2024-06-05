@@ -42,15 +42,18 @@
 - [Courses ABCU Source Code and Executable](https://github.com/miketerry021/miketerry021.github.io/tree/68b578e5f8688a9527a24fabcdb112d299483932/Courses%20ABCU)
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Coffee Shop}}}$
-- The Coffee Shop program is a simulation of a coffee shop POS system. Once started, the user will add a customer name, drink type, and drink quantity to an order. Once the order is finished, the sales total is calculated and displayed. This project highlights application design with JSwing, input validation, and matemtical calculation.
+- The Coffee Shop program is a simulation of a coffee shop POS system. Once started, the user will add a customer name, drink type, and drink quantity to an order. Once the order is finished, the sales total is calculated and displayed. This project highlights application design with JSwing, input validation, and mathematical calculation.
   
 - [Coffee Shop Source Code and Runable JAR](https://github.com/miketerry021/miketerry021.github.io/tree/5f496947ada842d02c48b630e4f0e9e3fe1c021d/Coffee%20Shop)
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Ice Cream Shop}}}$
-- The Ice Cream Shop program is a simulation of an ice cream shop POS system. 
+- The Ice Cream Shop program is a simulation of an ice cream shop POS system. Once started, the user can enter either the Sales or Administrator windows. In Sales, the user can fill a customer by selecting an ice cream flavor, portion size, number of scoops, and quantity. Once the order is finished, the sales total is calculated and displayed. In Administrator, the user can add new or delete ice cream flavors. This project highlights application design with JSwing, input validation, and mathematical calculation.
+
 - [Ice Cream Shop Source Code and Runable JAR](https://github.com/miketerry021/miketerry021.github.io/tree/5f496947ada842d02c48b630e4f0e9e3fe1c021d/Ice%20Cream%20Shop)
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Banking Application}}}$
+- The Banking Application is a simulation of a bank account system. Once started, the user ca either create a saving or checking account, withdraw or deposit funds, or display all accounts. This project highlights application design with JSwing, input validation, and mathematical calculation.
+
 - [Banking Source Code and Runable JAR](https://github.com/miketerry021/miketerry021.github.io/tree/5f496947ada842d02c48b630e4f0e9e3fe1c021d/Banking%20Application)
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Inventory App}}}$
