@@ -23,26 +23,27 @@
 - $\small{\textsf{Here is a link to my Resume:}}$ [Developer Resume](https://github.com/miketerry021/miketerry021.github.io/blob/cf877eb126255737b23c63af95abd87a047d2800/Developer%20Resume.pdf)
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Airgead Banking}}}$
-- The Airgead Banking program is a menu-based program that will calculate a compound interest investment plan based parameters entered by the user: initial deposit, monthly deposit, interest rate, and number of investment years. This project focuses on utilizing design formatting techniques, input validation, and mathematical calculation.
+- The Airgead Banking program is a menu-based program that will calculate a compound interest investment plan based parameters entered by the user: initial deposit, monthly deposit, interest rate, and number of investment years. This project highlights menu design formatting techniques, input validation, and mathematical calculation.
   
 - [Airgead Banking Source Code and Executable](https://github.com/miketerry021/miketerry021.github.io/tree/68b578e5f8688a9527a24fabcdb112d299483932/Airgead%20Banking)
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Corner Grocer}}}$
-- The Corner Grocer program is a menu-based program that begins by reading a data file that contains a list of grocery items, and generating a new file containing the items quantity. The user will have the option to search for one item, print all items and their quantity, or print a histogram of all items. This project focuses on design techniques, data structures, exception handling, file management, input validation, and container lists.
+- The Corner Grocer program is a menu-based program that begins by reading a data file that contains a list of grocery items, and generating a new file containing the items quantity. The user will have the option to search for one item, print all items and their quantity, or print a histogram of all items. This project highlights menu design techniques, data structures, exception handling, file management, input validation, and container lists.
 
 - $\color{rgba(226,60,44,1)}{\textsf{IMPORTANT!}}$ ***The executable and data file must be downloaded and placed in the same folder directory to run the program.***
   
 - [Corner Grocer Source Code and Executable](https://github.com/miketerry021/miketerry021.github.io/tree/cc6a1dcbd36d4068f78d73bd8299460bbe4b5d4d/Corner%20Grocer)
   
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Courses ABCU}}}$
-- The Courses ABCU program is a menu-based program that begins by reading a data file that contains a list of courses, course ID's, and course prerequisites. The user will have the option to display all courses, or look up an individual course and its prerequisites. This project focuses on design techniques, data structures, exception handling, file management, input validation and utilization of both selection sort and binary search tree algorithms.
+- The Courses ABCU program is a menu-based program that begins by reading a data file that contains a list of courses, course ID's, and course prerequisites. The user will have the option to display all courses, or look up an individual course and its prerequisites. This project highlights menu design techniques, data structures, exception handling, file management, input validation and utilization of both selection sort and binary search tree algorithms.
 
 - $\color{rgba(226,60,44,1)}{\textsf{IMPORTANT!}}$ ***The executable and data file must be downloaded and placed in the same folder directory to run the program.***
 
 - [Courses ABCU Source Code and Executable](https://github.com/miketerry021/miketerry021.github.io/tree/68b578e5f8688a9527a24fabcdb112d299483932/Courses%20ABCU)
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Coffee Shop}}}$
-- The Coffee Shop
+- The Coffee Shop program is a simulation of a coffee shop POS system. Once started, the user will add a customer name, drink type, and drink quantity to an order. Once the order is finished, the sales total is calculated and displayed. This project highlights application design with JSwing, input validation, and matemtical calculation.
+  
 - [Coffee Shop Source Code and Runable JAR](https://github.com/miketerry021/miketerry021.github.io/tree/5f496947ada842d02c48b630e4f0e9e3fe1c021d/Coffee%20Shop)
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Ice Cream Shop}}}$
