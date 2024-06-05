@@ -23,7 +23,7 @@
 - $\small{\textsf{Here is a link to my Resume:}}$ [Developer Resume](https://github.com/miketerry021/miketerry021.github.io/blob/584360ab09c3e55da07b730639a890ae5b50e054/Developer%20Resume.pdf)
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Airgead Banking}}}$
-- The Airgead Banking program is a menu-based program that will calculate a compound interest investment plan based parameters entered by the user: initial deposit, monthly deposit, interest rate, and number of investment years. This project focuses on is utilizing design formatting techniques and mathematical calculation.
+- The Airgead Banking program is a menu-based program that will calculate a compound interest investment plan based parameters entered by the user: initial deposit, monthly deposit, interest rate, and number of investment years. This project focuses on utilizing design formatting techniques and mathematical calculation.
   
 - [Airgead Banking Source Code and Executable](https://github.com/miketerry021/miketerry021.github.io/blob/584360ab09c3e55da07b730639a890ae5b50e054/Developer%20Resume.pdf)
 
