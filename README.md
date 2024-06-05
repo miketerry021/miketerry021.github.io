@@ -62,8 +62,9 @@
 - [Inventory App Source Code and APK file](https://github.com/miketerry021/miketerry021.github.io/tree/f5dad4a53d61fa9269ae0aaccb72f51b3f52655b/Inventory%20App)
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Generate 3D Image}}}$
-- This program is a 3D rendering of photo I previously took and was rendered using OpenGL libraries. The program highlights an understanding of graphics programming. 
-
+- This program is a 3D rendering of photo I previously took. This image and was rendered using OpenGL libraries and contains use of colors, textures, lighting effects, and camera controls. The program highlights an understanding of graphics programming.
+- Camera Controls
+    -A (Left), S (Down), D (Right), W (Up), Q (Zoom In), E (Zoom Out)
 - [3D Image](https://github.com/miketerry021/miketerry021.github.io/tree/5f496947ada842d02c48b630e4f0e9e3fe1c021d/Generate%203D%20Image)
 
 ### $\large{\textsf{\color{rgba(226,223,44,1)}\textit{Contact}}}$
